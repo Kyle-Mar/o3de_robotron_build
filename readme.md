@@ -1,1 +1,1 @@
-The game is located at : .\build\o3de_robotron_build\windows\bin\profile\Robotron_2084_O3DE.GameLauncher.exe
+The game is located at: `.\windows\bin\profile\Robotron_2084_O3DE.GameLauncher.exe`
