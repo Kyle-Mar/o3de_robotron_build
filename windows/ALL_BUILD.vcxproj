@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="profile|x64">
+      <Configuration>profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3BBDA560-882C-370F-988F-C97205212F5C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
+C:\O3DE\22.05.0\cmake\runtime\bin\cmake.exe -SC:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE -BC:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/build/windows --check-stamp-file C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/build/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\O3DE\22.05.0\cmake\CompilerSettings.cmake;C:\O3DE\22.05.0\cmake\Findo3de.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\O3DE\22.05.0\cmake\runtime\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\3.20.2\CMakeCCompiler.cmake;C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\3.20.2\CMakeSystem.cmake;C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\cmake\EngineFinder.cmake;C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\project.json;C:\Users\kcmos\.o3de\o3de_manifest.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\ZERO_CHECK.vcxproj">
+      <Project>{3376F032-F127-38BA-827C-E4BA6BE09525}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\External\Gem-c55f9494\Robotron_2084_O3DE.vcxproj">
+      <Project>{191B67EC-0B4A-396B-B3FC-829E2AF4452C}</Project>
+      <Name>Robotron_2084_O3DE</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\o3de\Robotron_2084_O3DE.GameLauncher.vcxproj">
+      <Project>{0D2E2245-DD52-3B9A-B642-E2131CEF6A2B}</Project>
+      <Name>Robotron_2084_O3DE.GameLauncher</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\o3de\Robotron_2084_O3DE.ServerLauncher.vcxproj">
+      <Project>{82E32E89-2A74-3BDC-86E7-378CC0F14899}</Project>
+      <Name>Robotron_2084_O3DE.ServerLauncher</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\External\Gem-c55f9494\Robotron_2084_O3DE.Static.vcxproj">
+      <Project>{CBEB5C37-47FC-3573-BB3B-452E1E6EBF6A}</Project>
+      <Name>Robotron_2084_O3DE.Static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

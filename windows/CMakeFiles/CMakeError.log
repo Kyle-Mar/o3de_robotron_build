@@ -1,0 +1,80 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/build/windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_655a3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  CheckIncludeFile.c
+C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeTmp\cmTC_655a3.vcxproj]
+C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: #include <pthread.h> [C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeTmp\cmTC_655a3.vcxproj]
+C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083:          ^ [C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeTmp\cmTC_655a3.vcxproj]
+
+
+
+Determining if the function pow exists in the m failed with the following output:
+Change Dir: C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/build/windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bd25c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  CheckFunctionExists.c
+LINK : fatal error LNK1104: cannot open file 'm.lib' [C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeTmp\cmTC_bd25c.vcxproj]
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/build/windows/CMakeFiles/CMakeScratch/TryCompile-j1u3hs
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8058e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  src.c
+C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeScratch\TryCompile-j1u3hs\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeScratch\TryCompile-j1u3hs\cmTC_8058e.vcxproj]
+C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeScratch\TryCompile-j1u3hs\src.c(1,10): fatal error C1083: #include <pthread.h> [C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeScratch\TryCompile-j1u3hs\cmTC_8058e.vcxproj]
+C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeScratch\TryCompile-j1u3hs\src.c(1,10): fatal error C1083:          ^ [C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeScratch\TryCompile-j1u3hs\cmTC_8058e.vcxproj]
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/build/windows/CMakeFiles/CMakeScratch/TryCompile-bkobak
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_274ca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  CheckFunctionExists.c
+LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeScratch\TryCompile-bkobak\cmTC_274ca.vcxproj]
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/build/windows/CMakeFiles/CMakeScratch/TryCompile-lvfwxd
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bfe33.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  CheckFunctionExists.c
+LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\CMakeScratch\TryCompile-lvfwxd\cmTC_bfe33.vcxproj]
+
+
+

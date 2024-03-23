@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/O3DE/22.05.0/Code/Framework/AzFramework/CMakeLists.txt
+C:/O3DE/22.05.0/Code/Framework/AzFramework/Platform/Windows/Default/AzFramework_profile.cmake
+C:/O3DE/22.05.0/Code/Framework/AzFramework/Platform/Windows/Default/permutation.cmake
+C:/O3DE/22.05.0/Code/Framework/AzFramework/Platform/Windows/platform_windows.cmake
+C:/Users/kcmos/.o3de/3rdParty/packages/lz4-1.9.3-vcpkg-rev4-windows/Findlz4.cmake
+C:/Users/kcmos/.o3de/3rdParty/packages/lz4-1.9.3-vcpkg-rev4-windows/PackageInfo.json

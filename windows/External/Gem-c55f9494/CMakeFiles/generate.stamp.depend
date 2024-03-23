@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Users/kcmos/.o3de/Restricted/Projects/Robotron_2084_O3DE/restricted.json
+C:/Users/kcmos/.o3de/Restricted/Projects/Robotron_2084_O3DE_HConf/restricted.json
+C:/Users/kcmos/.o3de/o3de_manifest.json
+C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/Gem/CMakeLists.txt
+C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/Gem/Platform/Windows/PAL_windows.cmake
+C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/Gem/Platform/Windows/robotron_2084_o3de_shared_windows_files.cmake
+C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/Gem/Platform/Windows/robotron_2084_o3de_windows_files.cmake
+C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/Gem/enabled_gems.cmake
+C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/Gem/gem.json
+C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/Gem/robotron_2084_o3de_files.cmake
+C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/Gem/robotron_2084_o3de_shared_files.cmake
+C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/project.json

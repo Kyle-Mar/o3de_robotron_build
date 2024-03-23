@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\CMakeFiles\c45fe77b577aa0618ce817ae3ee30ce1\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BAB07953-FCE2-3202-99A9-B437789E5CBB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

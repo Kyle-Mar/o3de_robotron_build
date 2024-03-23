@@ -1,0 +1,19 @@
+{
+    "engine_name": "o3de",
+    "restricted_name": "o3de",
+    "FileVersion": 1,
+    "O3DEVersion": "0.0.0.0",
+    "O3DECopyrightYear": 2022,
+    "O3DEBuildNumber": 0,
+    "external_subdirectories": ["External/Robotron_2084_O3DE/.",
+        "External/Gem/."],
+    "projects": [],
+    "templates": ["Templates/GemRepo",
+        "Templates/AssetGem",
+        "Templates/DefaultComponent",
+        "Templates/DefaultGem",
+        "Templates/DefaultProject",
+        "Templates/CppToolGem",
+        "Templates/MinimalProject",
+        "Templates/PythonToolGem"]
+}

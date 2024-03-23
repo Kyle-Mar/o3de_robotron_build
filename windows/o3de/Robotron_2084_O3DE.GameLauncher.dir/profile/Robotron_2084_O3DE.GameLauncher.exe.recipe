@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\x64\profile\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\bin\profile\Robotron_2084_O3DE.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\kcmos\O3DE\Projects\Robotron_2084_O3DE\build\windows\bin\profile\Robotron_2084_O3DE.GameLauncher.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

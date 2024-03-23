@@ -1,0 +1,20 @@
+^C:\USERS\KCMOS\O3DE\PROJECTS\ROBOTRON_2084_O3DE\BUILD\WINDOWS\CMAKEFILES\1AACBD181DDE4F76708F7AFE905BEFE1\ROBOTRON_2084_O3DE.GAMELAUNCHER.STAMP.RULE
+setlocal
+C:\O3DE\22.05.0\cmake\runtime\bin\cmake.exe -P C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/build/windows/runtime_dependencies/profile/Robotron_2084_O3DE.GameLauncher.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\O3DE\22.05.0\CMAKELISTS.TXT
+setlocal
+C:\O3DE\22.05.0\cmake\runtime\bin\cmake.exe -SC:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE -BC:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/build/windows --check-stamp-file C:/Users/kcmos/O3DE/Projects/Robotron_2084_O3DE/build/windows/o3de/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
